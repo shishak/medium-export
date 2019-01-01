@@ -12,6 +12,6 @@ permalink: posts/{{ item.path }}/index.html
 <div class="post-content">
   {{ item['description'] | safe }}
   
-  <p "meta"><a href="{{ item['link'] }}" target="_blank">{{ item['link'] }}</a></p>
+  <a class="meta" href="{{ item['link'] }}" target="_blank">{{ item['link'] }}</a>
 </div>
 
