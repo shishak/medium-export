@@ -10,7 +10,7 @@ module.exports = () => {
         // turn the feed XML into JSON
         toJSON(response.data, function (err, result) {
           // create a path for each item based on Medium's guid URL
-          result.rss.channel[0].item.forEach(element => {
+          result.rss.entry[0].title.forEach(element => {
             var url = element.link[0].split('/');
             element.path = url[url.length-1].split('?')[0];
           });
