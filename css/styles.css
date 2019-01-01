@@ -56,6 +56,14 @@ footer {
   border-top: solid 1px $feather;
 }
 
+footer a {
+  color: #888;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #888;
+  text-decoration: none;
+}
 
 .container {
   width: 90%;
