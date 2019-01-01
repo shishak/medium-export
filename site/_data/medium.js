@@ -1,7 +1,7 @@
 var axios  = require('axios');
 var toJSON = require('xml2js').parseString;
 
-var url = process.env.MEDIUM_FEED ||'https://medium.com/feed/multiverse-icon-set';
+var url = process.env.MEDIUM_FEED ||'https://meduza.io/rss/all';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
