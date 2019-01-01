@@ -31,6 +31,10 @@ a:visited {
   text-decoration: none;
 }
 
+p.meta a {
+    color: #a2a2a2; 
+}
+
 header,
 footer {
   padding-top: 2em;
