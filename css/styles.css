@@ -56,12 +56,15 @@ footer {
   border-top: solid 1px $feather;
 }
 
-footer a:link {
+footer a:link, footer a:visited, footer a:hover, footer a:active {
   color: #888;
+}
+
+footer a:link {
   text-decoration: underline;
 }
+
 footer a:hover {
-  color: #888;
   text-decoration: none;
 }
 
