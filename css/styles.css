@@ -31,10 +31,13 @@ a:visited {
   text-decoration: none;
 }
 
+p.meta {
+        margin-top: 1em;
+}
+
 p.meta a {
     color: #a2a2a2; 
     font-weight: 400;
-    margin-top: 1em;
 }
 
 header,
