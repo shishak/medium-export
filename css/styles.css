@@ -103,9 +103,9 @@ h1,h2,h3,h4 {
 h2 {
   font-size: 34px;
   letter-spacing: -.01em;
+  font-weight: 500;
   small {
     font-size: 0.5em;
-    font-weight: normal;
     color: $gentletext;
   }
 }
