@@ -7,9 +7,11 @@ pagination:
 permalink: posts/{{ item.path }}/index.html
 ---
 
-<p class="meta">Published on {{ item.pubDate | date }} <br/>by {{ item['dc:creator'] }}</p>
+<p class="meta">Published on {{ item.pubDate | date }}</p>
 <h2>{{ item.title }}</h2>
 <div class="post-content">
   {{ item['description'] | safe }}
+  
+  <p><a href="{{ item['link'] }}">Read full article</a></p>
 </div>
 
