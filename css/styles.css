@@ -56,7 +56,7 @@ footer {
   border-top: solid 1px $feather;
 }
 
-footer a {
+footer a:link {
   color: #888;
   text-decoration: underline;
 }
