@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
       output: "dist",
       data: "_data"
     },
-    feed: process.env.MEDIUM_FEED ||'https://medium.com/feed/netlify'
+    feed: process.env.MEDIUM_FEED ||'https://medium.com/feed/multiverse-icon-set'
   };
 
 };
