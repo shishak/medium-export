@@ -28,6 +28,7 @@ body {
 a:link,
 a:visited {
   color: #222;
+  text-decoration: none;
 }
 
 header,
