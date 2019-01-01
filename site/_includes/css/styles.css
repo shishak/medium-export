@@ -17,9 +17,12 @@ body {
 	}
 }
 
+a {
+	text-decoration: none;
+}
+
 a:link,a:visited {
 	color:#222;
-  text-decoration: none;
 }
 
 footer,header {
