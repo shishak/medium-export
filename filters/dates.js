@@ -2,20 +2,6 @@
   A date formatter filter for Nunjucks
 */
 module.exports = function(date) {
-  var month = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-  ];
   var ordinal = {
     1 : "st",
     2 : "nd",
@@ -26,5 +12,5 @@ module.exports = function(date) {
     31 : "st"
   };
   var d = new Date(date);
-  return d.getDate() + (ordinal[d.getDate()] || "th") + " " + month[d.getMonth()];
+  return d.getDate() + (ordinal[d.getDate()] || "th") + " " +d.getHours();
 }
