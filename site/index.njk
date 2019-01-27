@@ -7,7 +7,7 @@ layout: layouts/base.njk
   <li>
     <p class="meta">{{ item.pubDate | date }}</p>
     <h3><a href="/posts/{{ item.path }}">{{ item.title }}</a></h3>
-    {{ item['description'] | safe }}
+  
     
   </li>
  {% endfor %}
