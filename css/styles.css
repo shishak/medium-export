@@ -31,8 +31,8 @@ a:visited {
   text-decoration: none;
 }
 
-p.meta {
-        margin-top: 4em;
+p.date, p.category {
+        margin-top: 1em;
 }
 
 p.meta a {
