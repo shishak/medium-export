@@ -10,7 +10,7 @@ permalink: posts/{{ item.path }}/index.html
 <p class="meta">{{ item.pubDate | date }}</p>
 <h2>{{ item.title }}</h2>
 <div class="post-content">
-  {{ item['description'] | safe }}
+  {{ item['fulltext'] | safe }}
   
   <p class="meta"><a href="{{ item['link'] }}" target="_blank">{{ item['link'] }}</a></p>
 </div>
