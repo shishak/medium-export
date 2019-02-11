@@ -1,7 +1,7 @@
 var axios  = require('axios');
 var toJSON = require('xml2js').parseString;
 
-var url = process.env.MEDIUM_FEED ||'http://www.rbc.ua/static/rss/newsline.ukr.rss.xml';
+var url = process.env.MEDIUM_FEED ||'https://newsapi.org/v2/top-headlines?country=ua&apiKey=a6162766e2a04946aae1db7e3c0a8713';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
