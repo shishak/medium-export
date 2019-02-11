@@ -33,6 +33,7 @@ a:visited {
 
 p.date, p.category {
         margin-top: 1em;
+  font-size: 14px;
 }
 
 p.meta a {
