@@ -1,7 +1,7 @@
 var axios  = require('axios');
 var toJSON = require('xml2js').parseString;
 
-var url = process.env.MEDIUM_FEED ||'http://meduza.herokuapp.com/rss';
+var url = process.env.MEDIUM_FEED ||'http://www.rbc.ua/static/rss/newsline.ukr.rss.xml';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
