@@ -9,6 +9,10 @@ layout: layouts/base.njk
     <h3><a href="/posts/{{ item.path }}">{{ item.title }}</a></h3>
     <p class="category">{{ item.category }}</p>
     <p>{{ item.enclosure }}</p>
+      $(xml).find('enclosure').each(function(){
+    $('body').append( $(this).attr('url')+'<br>')
+    
+    })
   </li>
  {% endfor %}
 </ul>
