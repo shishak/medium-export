@@ -6,9 +6,8 @@ layout: layouts/base.njk
 {% for item in medium.posts %}
   <li>
     <p class="date">{{ item.pubDate | date }}</p>
-    <p class="category">{{ item.category }}</p>
     <h3><a href="/posts/{{ item.path }}">{{ item.title }}</a></h3>
- 
+    <p class="category">{{ item.category }}</p>
     
   </li>
  {% endfor %}
