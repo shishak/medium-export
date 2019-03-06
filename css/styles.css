@@ -66,6 +66,7 @@ footer {
 .post-content {
   text-align: left;
   line-height: 1.5;
+  margin-top: 50px;
 }
 
 p.meta {
@@ -73,6 +74,7 @@ p.meta {
   font-size: 0.6em;
   text-align: left;
   font-family: sans-serif;
+	
 }
 
 figcaption p {
@@ -88,8 +90,8 @@ h2 {
   font-size: 42px;
   letter-spacing: -0.01em;
   text-align: left;
-  margin-bottom: 70px;
-  margin-top: 0;
+  margin-bottom: 0;
+ 
 }
 
 h3 {
