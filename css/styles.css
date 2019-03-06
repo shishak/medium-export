@@ -104,7 +104,8 @@ figure {
 figcaption {
   color: rgba(0, 0, 0, 0.46);
   font-size: 0.7em;
-  
+  text-overflow: ellipsis;
+  height: 30px;
 }
 blockquote {
   border-left: 3px solid #333;
