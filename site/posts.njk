@@ -10,6 +10,6 @@ permalink: post/{{ item.path }}
 <p class="meta">{{ item.pubDate | date }} <br/></p>
 <h2>{{ item.title }}</h2>
 <div class="post-content">
-  {{ item['content:encoded'] | safe }}
+  {{ item['fulltext'] | safe }}
 </div>
 
