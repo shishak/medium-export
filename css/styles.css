@@ -107,6 +107,7 @@ figcaption {
   text-overflow: ellipsis;
   height: 60px;
   overflow: hidden;
+  display: inline-block;
 }
 blockquote {
   border-left: 3px solid #333;
