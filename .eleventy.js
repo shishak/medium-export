@@ -7,8 +7,7 @@ const precss = require('precss')
   return {
     dir: {
       input: "site",
-      output: "dist",
-      data: "_data"
+      output: "dist"
     },
     feed: process.env.MEDIUM_FEED ||'https://medium.com/feed/multiverse-icon-set'
   };
