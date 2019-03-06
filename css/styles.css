@@ -43,6 +43,9 @@ footer {
 .logo {
   text-align: center;
   width: 100%;
+  font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 
 @media (min-width: 800px) {
