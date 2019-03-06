@@ -1,7 +1,4 @@
 
-
-
-
 #columns {
 	column-width: 320px;
 	column-gap: 15px;
@@ -56,4 +53,3 @@ div#columns:hover figure:not(:hover) {
   #columns { column-gap: 0px; }
   #columns figure { width: 100%; }
 }
-
