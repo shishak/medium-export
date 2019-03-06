@@ -24,10 +24,3 @@ module.exports = () => {
 };
 
 
-
-moment.defineLocale('en-foo', {
-  parentLocale: 'uk',
-  /* */
-});
-
-
