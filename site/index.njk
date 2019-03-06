@@ -7,8 +7,7 @@ layout: layouts/base.njk
   <li>
     <p class="date">{{ item.pubDate | date }}</p>
     <h3><a href="/posts/{{ item.path }}">{{ item.title }}</a></h3>
-    <p class="category">{{ item.category }}</p>
-    <p>{{ item['enclosure'] }}</p>
+
   </li>
  {% endfor %}
 </ul>
