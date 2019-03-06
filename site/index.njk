@@ -4,7 +4,7 @@ layout: layouts/base.njk
 
 
 <ul class="listing">
-{% for item in medium.posts %}
+{% for item in medium.post %}
   <li>
     <p class="meta">{{ item.pubDate | date }}</p>
     <h3><a href="/post/{{ item.path }}">{{ item.title }}</a></h3>
