@@ -7,9 +7,11 @@ pagination:
 permalink: post/{{ item.path }}
 ---
 
+
+<div class="container">
 <p class="meta">{{ item.pubDate | date }} <br/></p>
 <h2>{{ item.title }}</h2>
 <div class="post-content">
   {{ item['fulltext'] | safe }}
 </div>
-
+</div>
