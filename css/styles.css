@@ -141,7 +141,7 @@ figure {
   margin-right: 0;
 }
 figcaption {
-  text-align: center;
+  
   color: $verygentletext;
   font-size: 0.7em;
 }
