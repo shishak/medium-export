@@ -14,7 +14,7 @@ module.exports = () => {
             var url = element.link[0].split('/');
             element.path = url[url.length-1].split('?')[0];
           });
-          resolve({'url': url, 'post': result.rss.channel[0].item});
+          resolve({'url': url, 'posts': result.rss.channel[0].item});
         });
       })
       .catch((error) => {
