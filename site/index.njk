@@ -8,11 +8,11 @@ layout: layouts/base.njk
   <figure>
  
   <a href="/post/{{ item.path }}">    
-    <h3>{{ item.title }}</h3>
-    <p class="meta">{{ item.pubDate | date }}</p>
+    <h3>{{ item.title }}</h3>   
      <figcaption>
     {{ item.description | safe }}
    </figcaption>
+    <p class="meta">{{ item.pubDate | date }}</p>
   </figure>
   </a>
  {% endfor %}
