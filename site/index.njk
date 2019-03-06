@@ -4,9 +4,9 @@ layout: layouts/base.njk
 
 
 <div id="columns">
-{% for item in medium %}
+{% for item in medium.post %}
   <figure> 
-  <a href="/{{ item.path }}">    
+  <a href="/post/{{ item.path }}">    
     <h3>{{ item.title }}</h3>   
      <figcaption>
     {{ item.description | safe }}
