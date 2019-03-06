@@ -16,7 +16,7 @@ body {
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
   color: $bodytext;
   font-size: 16px;
-  
+  line-height: 1.2;
 }
 
 @media (min-width: 800px) {
@@ -172,10 +172,6 @@ pre {
 
 .post-content img {
   display: none;
-}
-span {
-  font-size: 12px;
-  margin-bottom: 1em;
 }
 
 
