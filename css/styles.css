@@ -147,7 +147,13 @@ div#columns small {
 @media screen and (max-width: 750px) {
   #columns {
     column-gap: 0px;
+    margin-left: 0;
   }
+  footer,
+header {
+  margin-bottom: 0;
+}
+  
   #columns figure {
     width: 100%;
   }
