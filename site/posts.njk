@@ -4,14 +4,12 @@ pagination:
   data: medium.posts
   size: 1
   alias: item
-permalink: {{ item.path }}
+permalink: posts/{{ item.path }}/index.html
 ---
 
-<p class="meta">{{ item.pubDate | date }}</p>
+<p class="meta">Published on {{ item.pubDate | date }} <br/>by {{ item['dc:creator'] }}</p>
 <h2>{{ item.title }}</h2>
 <div class="post-content">
-  {{ item['fulltext'] | safe }}
-  
- 
+  {{ item['content:encoded'] | safe }}
 </div>
 
