@@ -5,7 +5,7 @@ module.exports = function(date) {
   var month = [
     "January",
     "February",
-    "Березень",
+    "Березня",
     "April",
     "May",
     "June",
@@ -26,5 +26,5 @@ module.exports = function(date) {
     31 : "st"
   };
   var d = new Date(date);
-  return ordinal[d.getDate()] + " " + d.getDate() + (month[d.getMonth()] || "е");
+  return d.getDate() + " " + (month[d.getMonth()]);
 }
