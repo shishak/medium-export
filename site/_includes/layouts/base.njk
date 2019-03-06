@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js'></script>
+     <script>
+     
+moment.defineLocale('en-foo', {
+  parentLocale: 'uk',
+  /* */
+});
+
+
+
+     </script>
     <title>Последние новости {{ item.title }}</title>
     <style>{% include "css/styles.css" %}</style>
   </head>
