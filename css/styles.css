@@ -74,6 +74,7 @@ h4 {
 h2 {
   font-size: 34px;
   letter-spacing: -0.01em;
+  text-align: left;
 }
 h2 small {
   color: rgba(0, 0, 0, 0.64);
