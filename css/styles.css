@@ -4,20 +4,23 @@ html {
   padding: 0;
 }
 body {
-  color: #000;
   font-family: Georgia, Cambria, Times New Roman, Times, serif;
   font-size: 16px;
-  line-height: 1.4;
-  
+  line-height: 1;
+  background: #fff;
 }
 @media (min-width: 800px) {
   body {
     font-size: 20px;
   }
 }
-a:link,
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
 a:visited {
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
   text-decoration: none;
 }
 footer,
@@ -30,6 +33,7 @@ header {
 }
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #424242;
 }
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -63,43 +67,41 @@ footer {
 }
 
 p.meta {
-  color: rgba(0, 0, 0, 0.64);
-  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.6em;
   text-align: left;
-}
-h1,
-h2,
-h3,
-h4 {
-  color: rgba(0, 0, 0, 0.84);
   font-family: sans-serif;
-  line-height: 1.1;
+}
+
+figcaption p {
+	margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+  line-height: 1;
 }
 h2 {
   font-size: 34px;
   letter-spacing: -0.01em;
   text-align: left;
+  margin-bottom: 70px;
 }
-h2 small {
-  color: rgba(0, 0, 0, 0.64);
-  font-size: 0.5em;
-  font-weight: 400;
-}
+
 h3 {
   margin-top: 0;
   font-size: 26px;
-}
-figure {
-  margin-left: 0;
-  margin-right: 0;
+  letter-spacing: -.05em;
 }
 figcaption {
-  color: rgba(0, 0, 0, 0.46);
-  font-size: 0.7em;
-  text-overflow: ellipsis;
-  height: 60px;
-  overflow: hidden;
-  display: inline-block;
+      font-size: 1rem;
+    color: #8c8c8c;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    height: 75px;
+    overflow: hidden;
+    display: inline-block;
 }
 
 #columns {
@@ -109,38 +111,95 @@ figcaption {
   margin: 50px auto;
 }
 
-div#columns figure {
-  background: #fefefe;
-  border: 2px solid #fcfcfc;
-  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+figure {
   margin: 0 2px 15px;
   padding: 15px;
-  padding-bottom: 10px;
-  transition: opacity 0.4s ease-in-out;
   display: inline-block;
-  column-break-inside: avoid;
+  background: #fafafa;
+  transition: all .2s ease-in-out;
+  border-radius: 3px;
+
+}
+figure:hover {
+  background: #fff;
 }
 
-div#columns figure img {
-  width: 100%;
-  height: auto;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 15px;
-  margin-bottom: 5px;
+
+
+figure:nth-child(1) {
+  background: #fff;  
+}
+figure:nth-child(1) h3  {
+  font-size: 40px;
+  color: #424242;
 }
 
-div#columns figure figcaption {
-  font-size: 0.9rem;
-  color: #444;
-  line-height: 1.5;
+figure:nth-child(1) figcaption {
+  font-size: 25px;
+  height: 390px;
+  line-height: 1.2;
+  color: #111;
 }
 
-div#columns small {
-  font-size: 1rem;
-  float: right;
-  text-transform: uppercase;
-  color: #aaa;
+
+
+
+
+
+figure:nth-child(4n+0) {
+  background: #424242;
 }
+figure:nth-child(4n+0):hover {
+  background: #292929;
+}
+
+figure:nth-child(4n+0) h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+  padding: 10px;
+  margin-bottom: 0;
+}
+figure:nth-child(4n+0) p.meta {
+  
+  color: #fff;
+  font-weight: 400;
+}
+
+figure:nth-child(4n+0) figcaption {
+  display: none;
+
+}
+
+
+figure:nth-child(6n+0) {
+  background: #FFEB3B;
+}
+figure:nth-child(6n+0):hover {
+  background: #fff;
+}
+
+figure:nth-child(6n+0) h3 {
+  font-size: 32px;
+  color: #383838;
+  font-weight: 800;
+  padding: 10px;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+figure:nth-child(6n+0) p.meta {
+    font-weight: 800;
+    color: rgba(17, 17, 17, 0.56);
+    padding-left: 10px;
+}
+
+figure:nth-child(6n+0) figcaption {
+  display: none;
+}
+
+
+
+
 
 
 
@@ -154,7 +213,7 @@ header {
   margin-bottom: 0;
 }
   
-  #columns figure {
+  figure {
     width: 100%;
   }
 }
