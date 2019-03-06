@@ -10,7 +10,7 @@ const cssnano   = require('cssnano');
 gulp.task('css', function () {
   return gulp.src('css/**/*.css')
  
-    .pipe(gulp.dest('site/css'));
+    .pipe(gulp.dest('site/_includes/css'));
 });
 
 
