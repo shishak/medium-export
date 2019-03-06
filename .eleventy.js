@@ -4,7 +4,7 @@ const precss = require('precss')
 
 module.exports = function(eleventyConfig) {
 
-  eleventyConfig.addFilter("date", require("./filters/dates.js") );
+ 
 
   return {
     dir: {
