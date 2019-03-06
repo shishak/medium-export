@@ -1,4 +1,3 @@
-
 /*
   A date formatter filter for Nunjucks
 */
@@ -27,5 +26,5 @@ module.exports = function(date) {
     31 : "st"
   };
   var d = new Date(date);
-  return month[d.getMonth()] + " " + d.getDate() + (ordinal[d.getDate()] || "th");
+  return month[d.getMonth()] + " " + d.getDate() + (ordinal[d.getDate()] || "th") + " " +d.getUTCFullYear();
 }
