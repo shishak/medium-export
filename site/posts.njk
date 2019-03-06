@@ -9,8 +9,8 @@ permalink: post/{{ item.path }}
 
 
 <div class="container">
-<p class="meta">{{ item.pubDate | date }} <br/></p>
 <h2>{{ item.title }}</h2>
+<p class="meta">{{ item.pubDate | date }} <br/></p>
 <div class="post-content">
   {{ item['fulltext'] | safe }}
 </div>
