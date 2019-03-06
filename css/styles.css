@@ -133,7 +133,6 @@ pre {
   column-width: 320px;
   column-gap: 15px;
   width: 90%;
-  max-width: 1100px;
   margin: 50px auto;
 }
 
@@ -170,15 +169,7 @@ div#columns small {
   color: #aaa;
 }
 
-div#columns small a {
-  color: #666;
-  text-decoration: none;
-  transition: 0.4s color;
-}
 
-div#columns:hover figure:not(:hover) {
-  opacity: 0.4;
-}
 
 @media screen and (max-width: 750px) {
   #columns {
