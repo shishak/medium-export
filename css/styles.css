@@ -37,7 +37,7 @@ footer {
 .container {
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: center;
   width: 90%;
 }
 .logo {
@@ -50,33 +50,15 @@ footer {
     width: 700px;
   }
 }
-hr {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  border-style: none;
-  margin-bottom: 3em;
-  margin-top: 2em;
-}
+
 .post-content img {
   width: 100%;
   display: none;
 }
-ul.listing {
-  list-style: none;
-  list-style-position: outside;
-  padding-left: 0;
-  padding-top: 1em;
+.post-content {
+  text-align: left;
 }
-ul.listing li {
-  margin-bottom: 3em;
-}
-ul.listing h3 {
-  margin-top: 0;
-  padding-top: 0;
-}
-ul.listing p.meta {
-  margin-bottom: 0;
-  padding-bottom: 0.5em;
-}
+
 p.meta {
   color: rgba(0, 0, 0, 0.64);
   font-size: 0.8em;
