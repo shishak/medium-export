@@ -53,6 +53,7 @@ hr {
 }
 .post-content img {
   width: 100%;
+  display: none;
 }
 ul.listing {
   list-style: none;
