@@ -12,7 +12,7 @@ module.exports = () => {
           // create a path for each item based on Medium's guid URL
           result.rss.channel[0].item.forEach(element => {
             var url = element.link[0].split('/');
-            element.path = url[url.length-0].split('?')[0];
+            element.path = url[url.length-1].split('?')[0];
           });
           resolve({'url': url, 'posts': result.rss.channel[0].item});
         });
