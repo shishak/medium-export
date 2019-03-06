@@ -62,6 +62,7 @@ footer {
 p.meta {
   color: rgba(0, 0, 0, 0.64);
   font-size: 0.8em;
+  text-align: left;
 }
 h1,
 h2,
@@ -97,29 +98,7 @@ figcaption {
   overflow: hidden;
   display: inline-block;
 }
-blockquote {
-  border-left: 3px solid #333;
-  font-style: italic;
-  margin-bottom: 0;
-  margin-left: -2em;
-  margin-top: 0;
-  padding-bottom: 0.5em;
-  padding-left: 2em;
-  padding-top: 0.5em;
-}
-blockquote em {
-  font-style: normal;
-}
-pre {
-  background-color: #eee;
-  color: #333;
-  font-size: 0.7em;
-  margin-bottom: 0;
-  margin-top: 0;
-  overflow-x: scroll;
-  padding-left: 1em;
-  padding-right: 1em;
-}
+
 #columns {
   column-width: 320px;
   column-gap: 15px;
