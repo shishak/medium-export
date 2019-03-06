@@ -106,6 +106,7 @@ figcaption {
   font-size: 0.7em;
   text-overflow: ellipsis;
   height: 30px;
+  overflow: hidden;
 }
 blockquote {
   border-left: 3px solid #333;
