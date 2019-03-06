@@ -3,13 +3,14 @@ layout: layouts/base.njk
 ---
 
 
-<ul class="listing">
+<div id="columns">
 {% for item in medium.post %}
-  <li>
+  <figure>
+  <figcaption>
     <p class="meta">{{ item.pubDate | date }}</p>
     <h3><a href="/post/{{ item.path }}">{{ item.title }}</a></h3>
-    <figcaption>{{ item.description | safe }}</figcaption>
-   
-  </li>
+    {{ item.description | safe }}
+   </figcaption>
+  </figure>
  {% endfor %}
-</ul>
+</div>
