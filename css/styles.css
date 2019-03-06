@@ -174,10 +174,11 @@ figure:nth-child(4n+0) figcaption {
 
 
 figure:nth-child(6n+0) {
-  background: #FFEB3B;
+  background: #fff;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
 }
 figure:nth-child(6n+0):hover {
-  background: #fff;
+  background: #fafafa;
 }
 
 figure:nth-child(6n+0) h3 {
