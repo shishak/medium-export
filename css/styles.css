@@ -168,3 +168,7 @@ pre {
   font-size: 0.7em;
   overflow-x: scroll;
 }
+
+.post-content img {
+  display: none;
+}
