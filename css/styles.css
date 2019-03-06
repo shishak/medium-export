@@ -124,7 +124,7 @@ figure {
   background: #fafafa;
   transition: all .2s ease-in-out;
   border-radius: 3px;
-
+  max-width: 330px;
 }
 figure:hover {
   background: #fff;
