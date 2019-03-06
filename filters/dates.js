@@ -26,5 +26,5 @@ module.exports = function(date) {
     31 : "st"
   };
   var d = new Date(date);
-  return month[d.getMonth()] + " " + d.getDate() + (ordinal[d.getDate()] || "th") + " " + d.getUTCHours() + ":" + d.getUTCMinutes(();
+  return month[d.getMonth()] + " " + d.getDate() + (ordinal[d.getDate()] || "th");
 }
