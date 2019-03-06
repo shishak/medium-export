@@ -1,5 +1,4 @@
 const gulp      = require("gulp");
-const postcss   = require("gulp-postcss");
 const precss    = require('precss');
 const cssnano   = require('cssnano');
 
@@ -10,7 +9,7 @@ const cssnano   = require('cssnano');
 */
 gulp.task('css', function () {
   return gulp.src('css/**/*.css')
-    .pipe(postcss([precss, cssnano] ))
+ 
     .pipe(gulp.dest('site/_includes/css'));
 });
 
