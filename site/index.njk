@@ -7,10 +7,12 @@ layout: layouts/base.njk
 {% for item in medium.post %}
   <figure>
   <figcaption>
+  <a href="/post/{{ item.path }}">
     <p class="meta">{{ item.pubDate | date }}</p>
-    <h3><a href="/post/{{ item.path }}">{{ item.title }}</a></h3>
+    <h3>{{ item.title }}</h3>
     {{ item.description | safe }}
    </figcaption>
   </figure>
+  </a>
  {% endfor %}
 </div>
