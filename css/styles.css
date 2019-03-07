@@ -124,7 +124,14 @@ span {
 span:nth-child(2n+0) {
   display: none;
 }
+span:nth-child(3n+0) {
+  display: none;
+}
 span:nth-child(4n+0) {
+  display: none;
+}
+
+span:nth-child(5n+0) {
   display: none;
 }
 span:nth-child(6n+0) {
