@@ -117,8 +117,9 @@ h4 {
 }
 
 span {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
   padding: 10px;
+  display: inline-block;
 }
 
 span:nth-child(2n+0) {
