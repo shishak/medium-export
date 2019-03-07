@@ -89,6 +89,10 @@ figcaption p {
 	margin-bottom: 20px;
 }
 
+.post-content p {
+  margin-bottom: 20px;
+}
+
 h2, h3 {
   color: rgba(0, 0, 0, 0.8);
   font-family: sans-serif;
