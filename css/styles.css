@@ -37,9 +37,9 @@ header {
 }
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  background: #eee;
-  padding-bottom: 4em;
-  padding-top: 4em;	
+  background: #fafafa;
+  padding-bottom: 8em;
+  padding-top: 8em;	
 }
 .container {
   margin-left: auto;
