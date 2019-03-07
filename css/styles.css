@@ -116,7 +116,6 @@ h4 {
 }
 
 span {
-  margin-bottom: 40px;
   padding: 20px;
   display: inline-block;
 }
@@ -139,7 +138,7 @@ span:nth-child(6n+0) {
 }
 
 .page-columns {
-  max-width: 700px;
+  max-width: 730px;
 }
 
 figcaption {
