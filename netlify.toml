@@ -4,3 +4,13 @@
 
 [template.environment]
   MEDIUM_FEED = "The URL of the Medium feed to pull in"
+
+
+
+
+
+# COMMENT: This a rule for Single Page Applications
+[[redirects]]
+  from = "/404"
+  to = "/404.html"
+  status = 200
