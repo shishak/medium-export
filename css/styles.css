@@ -138,6 +138,10 @@ span:nth-child(6n+0) {
   display: none;
 }
 
+.page-columns {
+  background: #eee;
+}
+
 figcaption {
       font-size: 1rem;
     color: #8c8c8c;
