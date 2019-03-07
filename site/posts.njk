@@ -18,14 +18,10 @@ permalink: /{{ item.path }}
 
 <div id="columns">
 {% for item in medium.post %}
-  <figure> 
+  <span> 
   <a href="/{{ item.path }}">    
-    <h3>{{ item.title }}</h3>   
-     <figcaption>
-    {{ item.description | safe }}
-   </figcaption>
-    <p class="meta">{{ item.pubDate | date }}</p>
+    <h3>{{ item.title }}</h3>       
   </a>
-  </figure>
+  </span>
  {% endfor %}
 </div>
