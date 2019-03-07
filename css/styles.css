@@ -23,6 +23,10 @@ a:visited {
   color: #656464;
   text-decoration: none;
 }
+strong {
+  font-weight: 400;
+}
+
 footer,
 header {
   color: rgba(0, 0, 0, 0.64);
