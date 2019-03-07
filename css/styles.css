@@ -175,7 +175,7 @@ figure:nth-child(4n+0) h3 {
   margin-bottom: 0;
 }
 figure:nth-child(4n+0) p.meta {
-  
+  padding-left: 10px;
   color: #fff;
   font-weight: 400;
 }
