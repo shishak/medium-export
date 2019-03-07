@@ -11,6 +11,6 @@
 
 # COMMENT: This a rule for Single Page Applications
 [[redirects]]
-  from = "/404/index.html"
-  to = "/404.html"
+  from = "/static/ckef/img/*"
+  to = "https://www.rbc.ua/static/ckef/img/*"
   status = 200
