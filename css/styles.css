@@ -139,7 +139,7 @@ span:nth-child(6n+0) {
 }
 
 .page-columns {
-  background: #eee;
+  max-width: 700px;
 }
 
 figcaption {
