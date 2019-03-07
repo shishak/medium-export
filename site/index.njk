@@ -16,3 +16,18 @@ layout: layouts/base.njk
   </figure>
  {% endfor %}
 </div>
+
+<div id="columns">
+{% for item in google.posts %}
+  <figure> 
+  <a href="/{{ item.path }}">    
+    <h3>{{ item.title }}</h3>   
+     <figcaption>
+    {{ item.description | safe }}
+   </figcaption>
+    <p class="meta">{{ item.pubDate | date }}</p>
+  </a>
+  </figure>
+ {% endfor %}
+</div>
+
