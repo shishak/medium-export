@@ -107,6 +107,12 @@ h3 {
   font-size: 26px;
   letter-spacing: -.05em;
 }
+
+h4 {
+  font-size: 18px;
+  color: #111;
+}
+
 figcaption {
       font-size: 1rem;
     color: #8c8c8c;
