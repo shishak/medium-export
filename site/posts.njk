@@ -20,7 +20,10 @@ permalink: /{{ item.path }}
 {% for item in medium.post %}
   <span> 
   <a href="/{{ item.path }}">    
-    <h4>{{ item.title }}</h4>       
+    <h4>{{ item.title }}</h4>
+    <figcaption>
+    {{ item.description | safe }}
+   </figcaption>
   </a>
   </span>
  {% endfor %}
