@@ -114,6 +114,8 @@ h4 {
   font-weight: 400;
   font-family: sans-serif;
   margin-bottom: 40px;
+  padding: 10px;
+  opacity: .7;
 }
 
 figcaption {
