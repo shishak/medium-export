@@ -38,7 +38,8 @@ header {
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 8em;
-  padding-top: 8em;	
+  padding-top: 8em;
+  background: #fafafa;
 }
 .container {
   margin-left: auto;
