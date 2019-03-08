@@ -97,7 +97,7 @@ figcaption p {
   padding-bottom: 20px;
 }
 
-.post-content p:nth-child(3n+0) {
+.post-content p:nth-child(4) {
     font-family: sans-serif; 
     color: #212121;
     padding: 30px;
