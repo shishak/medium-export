@@ -1,11 +1,11 @@
 {
-  "name": "MediumExport",
+  "name": "MediumExport2",
   "version": "1.0.0",
   "author": "Phil Hawksworth",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philhawksworth/medium-export"
+    "url": "https://github.com/shishak/medium-export"
   },
   "scripts": {
     "start": "gulp watch & eleventy --serve",
