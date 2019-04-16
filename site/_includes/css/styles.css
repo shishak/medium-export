@@ -28,12 +28,12 @@ header {
   color: rgba(0, 0, 0, 0.64);
   font-size: 0.7em;
   margin-bottom: 4em;
-  padding-bottom: 2em;
-  padding-top: 2em;
+  padding-bottom: 5em;
+  padding-top: 5em;
 }
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  background: #424242;
+  background: #fff;
 }
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
